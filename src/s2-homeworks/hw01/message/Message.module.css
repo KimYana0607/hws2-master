@@ -8,13 +8,13 @@
 }
 
 .imageAndText img {
-    max-width: 374px;
     height: 48px;
     opacity: 1;
     justify-content: end;
 }
 
 .text {
+    max-width: 530px;
     min-height: 60px;
     background-color: #0066CC;
     padding: 8px 27px 8px 13px;
@@ -36,7 +36,6 @@
     font-family: Montserrat, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    gap: 4px;
     white-space: pre-wrap;
     word-wrap: break-word;
 }

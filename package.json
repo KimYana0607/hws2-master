@@ -1,8 +1,8 @@
 {
   "name": "hws2",
-  "homepage": "https://KimYana0607.github.io/hws2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kimyana0607.github.io/hws2-master",
   "dependencies": {
     "@emotion/react": "11.10.4",
     "@emotion/styled": "11.10.4",
@@ -16,11 +16,11 @@
     "@types/react-dom": "18.0.6",
     "@types/uuid": "8.3.4",
     "axios": "0.27.2",
-    "gh-pages": "4.0.0",
+    "gh-pages": "^6.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-redux": "8.0.4",
-    "react-router-dom": "6.4.3",
+    "react-router-dom": "^7.9.3",
     "react-scripts": "5.0.1",
     "redux": "4.2.0",
     "typescript": "4.7.4",
