@@ -8,14 +8,13 @@
 }
 
 .imageAndText img {
-    width: 48px;
+    max-width: 374px;
     height: 48px;
     opacity: 1;
     justify-content: end;
 }
 
 .text {
-    width: 527px;
     min-height: 60px;
     background-color: #0066CC;
     padding: 8px 27px 8px 13px;
