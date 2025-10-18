@@ -15,8 +15,8 @@ function App() {
                 <Routes>
                     {/*<Route path="/" element={<HW1 />} />*/}
                     {/* Раскомментируй по мере добавления домашних */}
-                    {/*<Route path="/" element={<HW2 />} />*/}
                     <Route path="/" element={<HW2 />} />
+                    <Route path="/hw2" element={<HW2 />} />
                     {/* <Route path="/hw3" element={<HW3 />} /> */}
                     {/* <Route path="/hw4" element={<HW4 />} /> */}
                     {/* <Route path="/hw5" element={<HW5 />} /> */}
