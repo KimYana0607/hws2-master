@@ -1,18 +1,29 @@
-import React from 'react'
-import {pureAddUserCallback} from '../HW3'
+import { pureAddUserCallback } from '../HW3'
+import { v1 } from 'uuid'
 
-let initialState: any[]
-const setName = (a: any[]) => {
-    initialState = a
+type UserType = {
+    _id: string
+    name: string
+}
+
+let users: UserType[] = []
+
+const setUsers = (action: React.SetStateAction<UserType[]>) => {
+    if (typeof action === 'function') {
+        // если передана функция обновления состояния
+        users = action(users)
+    } else {
+        users = action
+    }
 }
 
 beforeEach(() => {
-    initialState = []
+    users = []
 })
 
 test('name 1', () => {
-    pureAddUserCallback('name', setName, initialState)
-    expect(initialState.length).toBe(1)
-    expect(initialState[0].name).toBe('name')
-    expect(!!initialState[0]._id).toBe(true)
+    pureAddUserCallback('name', setUsers, users)
+    expect(users.length).toBe(1)
+    expect(users[0].name).toBe('name')
+    expect(!!users[0]._id).toBe(true)
 })

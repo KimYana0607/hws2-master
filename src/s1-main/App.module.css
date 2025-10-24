@@ -22,6 +22,11 @@
 
 .App {
     --header_height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vw;
 }
 
 .hw {
@@ -29,5 +34,4 @@
 }
 
 .hwTitle {
-
 }
