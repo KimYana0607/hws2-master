@@ -8,7 +8,7 @@ type GreetingContainerPropsType = {
 }
 export const pureAddUser = (
     name: string,
-    setError: React.Dispatch<React.SetStateAction<string>>, // <-- исправлено
+    setError: React.Dispatch<React.SetStateAction<string>>,
     setName: React.Dispatch<React.SetStateAction<string>>,
     addUserCallback: (name: string)=> void
 ) => {
