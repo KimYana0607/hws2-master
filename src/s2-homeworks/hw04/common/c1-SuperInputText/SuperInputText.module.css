@@ -2,6 +2,11 @@
 }
 
 .input {
+    min-width: 372px;
+    min-height: 36px;
+    border-radius: 5px;
+    opacity: 1;
+    border: 1px solid #D1D1D1
 }
 
 .inputWrapper {
@@ -11,10 +16,15 @@
 }
 
 .errorInput {
+    border: 1px solid red;
+    background-color: #ffe6e6;
 }
 
 .errorInput:focus {
 }
 
 .error {
+    /*border: 1px solid red;*/
+    /*background-color: #ffe6e6;*/
+
 }
