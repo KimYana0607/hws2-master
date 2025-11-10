@@ -1,8 +1,13 @@
 .burgerMenuIcon {
+    width: 24px;
+    height: 24px;
+    z-index: 1200;
+    cursor: pointer;
 }
 
 .header {
     min-width: 1280px;
+    min-height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
