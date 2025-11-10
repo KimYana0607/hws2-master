@@ -9,7 +9,7 @@
     z-index: 1000;
     padding: 20px;
     background-color: #FFFFFF;
-    box-shadow: 0px 10px 40px 0px #1D212621;
+    box-shadow: 0 10px 40px 0 #1D212621;
 }
 
 .sidebar.open {
@@ -19,12 +19,13 @@
 .background {
     background-color: #000000;
     opacity: 30%;
+    z-index: 900;
 }
 
 .nav {
     /*padding-top: 65px;*/
-    /*padding-left: 70px;*/
-    padding: 70px;
+    margin-top: 70px;
+    padding-left: 70px;
     display: flex;
     flex-direction: column;
     gap: 45px;

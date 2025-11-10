@@ -9,6 +9,7 @@
     background-color: white;
     box-shadow: 0 0 40px 0 #1D212621;
     padding: 20px 70px;
+    z-index: 1100;
 }
 
 .header h1 {
