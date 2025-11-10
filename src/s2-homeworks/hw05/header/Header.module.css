@@ -2,7 +2,20 @@
 }
 
 .header {
+    min-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 0 40px 0 #1D212621;
+    padding: 20px 70px;
 }
 
 .header h1 {
+    opacity: 1;
+    top: 17px;
+    left: 1086px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
 }
