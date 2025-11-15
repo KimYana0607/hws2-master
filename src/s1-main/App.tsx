@@ -6,6 +6,7 @@ import HW2 from "../s2-homeworks/hw02/HW2";
 import HW3 from "../s2-homeworks/hw03/HW3";
 import HW4 from "../s2-homeworks/hw04/HW4";
 import HW5 from "../s2-homeworks/hw05/HW5";
+import HW6 from "../s2-homeworks/hw06/HW6";
 // import HW2 from '../s2-homeworks/hw02/HW2';
 // import HW3 from '../s2-homeworks/hw03/HW3';
 // import HW4 from '../s2-homeworks/hw04/HW4';
@@ -25,7 +26,8 @@ function App() {
                     {/*<Route path="/" element={<HW4 />} />*/}
                     {/* <Route path="/hw4" element={<HW4 />} />*/}
                     <Route path="/*" element={<HW5 />} />
-                    {/*<Route path="/hw5" element={<HW5 />} />*/}
+                    {/*<Route path="/" element={<HW6 />} />*/}
+                    {/*<Route path="/hw6" element={<HW6 />} />*/}
                 </Routes>
             </HashRouter>
         </div>
