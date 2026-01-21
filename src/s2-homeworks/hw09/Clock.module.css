@@ -1,7 +1,49 @@
 .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.startButton {
+    width: 84px;
+    height: 30px;
+    border-radius: 3px;
+    padding: 5px 24px;
+    background-color: #0066CC;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.startButton:disabled {
+    background-color: #0066CC; /* можно оставить тот же цвет */
+    opacity: 0.4;
+    color: white;
+    cursor: not-allowed; /* курсор «неактивно» */
+}
+
+.stopButton {
+    width: 84px;
+    height: 30px;
+    border-radius: 3px;
+    padding: 5px 24px;
+    background-color: #0066CC;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.stopButton:disabled {
+    background-color: #0066CC;
+    opacity: 0.4;
+    color: white;
+    cursor: not-allowed;
 }
 
 .clock {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .watch {
@@ -11,4 +53,10 @@
 }
 
 .more {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #00000080;;
+    opacity: 0.5;
 }
