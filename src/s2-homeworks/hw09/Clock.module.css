@@ -4,42 +4,6 @@
     gap: 20px;
 }
 
-.startButton {
-    width: 82px;
-    height: 30px;
-    border-radius: 3px;
-    padding: 5px 24px;
-    background-color: #0066CC;
-    color: white;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.startButton:disabled {
-    background-color: #0066CC;
-    opacity: 0.4;
-    color: white !important;
-    cursor: not-allowed;
-}
-
-.stopButton {
-    width: 82px;
-    height: 30px;
-    border-radius: 3px;
-    padding: 5px 24px;
-    background-color: #0066CC;
-    color: white;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.stopButton:disabled {
-    background-color: #0066CC;
-    opacity: 0.4;
-    color: white;
-    cursor: not-allowed;
-}
-
 .clock {
     font-family: Montserrat, sans-serif;
     font-weight: 400;
