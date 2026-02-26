@@ -4,7 +4,6 @@ import s2 from '../../s1-main/App.module.css'
 import SuperSelect from '../hw07/common/c5-SuperSelect/SuperSelect'
 import {useDispatch, useSelector} from 'react-redux'
 import {changeThemeId} from "./bll/themeReducer";
-import {Root} from "react-dom/client";
 import {RootState} from "./store";
 
 /*
@@ -27,9 +26,6 @@ const HW12 = () => {
         (state: RootState) => state.theme.themeId
     )
     const dispatch = useDispatch()
-
-
-    console.log(themeId)
 
     const change = (id: number) => { // дописать функцию
         dispatch(changeThemeId(id))
