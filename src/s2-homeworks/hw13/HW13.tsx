@@ -64,7 +64,7 @@ const HW13 = () => {
                     setCode('Error!')
                     setImage(errorUnknown)
                     setText('Network Error')
-                    setInfo('Сервер недоступен или неверный адрес')
+                    setInfo('AxiosError')
                     return
                 }
             })
