@@ -1,7 +1,14 @@
 .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
 }
 
 .responseContainer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
 }
 
 .imageContainer {
@@ -11,12 +18,19 @@
 }
 
 .textContainer{
+    align-content: center;
 }
 
 .code {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
 }
 
 .text {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
 }
 .info {
 }
